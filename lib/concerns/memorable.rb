@@ -12,8 +12,8 @@
 
    module InstanceMethods
 
-     def initialize(name)
-       self.class.all << name
+     def initialize
+       self.class.all << self
      end
 
    end
